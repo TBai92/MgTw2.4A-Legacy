@@ -7,7 +7,11 @@
 
 ## 📥 Завантажити / Download
 
-🤖 [Скачати останню версію програми для Windows (x64)](https://github.com/TBai92/MgTw2.4A-Legacy/blob/main/releases/download/MgTw2.4A-Lagacy(by-TBai92).zip)
+<p align="left">
+  <a href="https://github.com/TBai92/MgTw2.4A-Legacy/blob/main/releases/download/MgTw2.4A-Lagacy(by-TBai92).zip">
+    <img src="https://img.shields.io/badge/Скачати%20програму-Download%20.ZIP-blue?style=for-the-badge&logo=windows&logoColor=white" alt="Завантажити ZIP">
+  </a>
+</p>
 
 ## 🚀 Як це працює
 
