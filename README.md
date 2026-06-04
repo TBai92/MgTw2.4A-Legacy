@@ -5,6 +5,8 @@
 
 ![](assets/screenshots/UI.png)
 
+## 📥 Завантажити / Download
+
 🤖 [Скачати останню версію програми для Windows (x64)](https://github.com/TBai92/MgTw2.4A-Legacy/blob/main/releases/download/MgTw2.4A%20Lagacy%20(by%20TBai92).zip)
 
 ## 🚀 Як це працює
