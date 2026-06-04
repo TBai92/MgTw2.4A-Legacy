@@ -11,6 +11,10 @@
 
 ПРИМІТКА: яке б БАГАТОКАНАЛЬНЕ аудіо ви би не використовували на виході буде Stereo 192k
 
+## 🛠 Збірка .exe (Pyinstaller)
+```bash
+pyinstaller --onefile --noconsole --icon="image.ico" --name "MgTw2.4A Lagacy (by TBai92)" --add-data "image.ico;." main.py
+```
 ## 🛠 Збірка додаткових файлів (Кастомний FFmpeg)
 
 Для роботи програми використовується мінімалістична статична збірка FFmpeg під Windows (x64). З неї вирізано все зайве (відеодекодери, мережа, пристрої), щоб зменшити розмір кінцевого файлу програми та забезпечити ліцензійну чистоту.
@@ -49,3 +53,5 @@ make clean
   --extra-ldflags="-static -static-libgcc"
 
 make -j$(nproc)
+
+```
