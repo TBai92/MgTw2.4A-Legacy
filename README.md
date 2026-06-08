@@ -42,7 +42,7 @@ make clean
   --target-os=mingw32 \
   --cross-prefix=x86_64-w64-mingw32- \
   --pkg-config=false \
-  --disable-x86asm \
+  --enable-x86asm \
   --disable-pthreads \
   --enable-w32threads \
   --disable-everything \
