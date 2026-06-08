@@ -8,7 +8,7 @@
 ## 📥 Завантажити / Download
 
 <p align="left">
-  <a href="[https://github.com/TBai92/MgTw2.4A-Legacy/raw/main/releases/download/MgTw2.4A-Lagacy(by-TBai92).zip](https://github.com/TBai92/MgTw2.4A-Legacy/raw/main/releases/download/MgTw2.4A%20Legacy%20(by%20TBai92).zip)">
+  <a href="(https://github.com/TBai92/MgTw2.4A-Legacy/raw/main/releases/download/MgTw2.4A%20Legacy%20(by%20TBai92).zip)">
     <img src="https://img.shields.io/badge/Скачати%20програму-Download%20.ZIP-blue?style=for-the-badge&logo=windows&logoColor=white" alt="Завантажити ZIP">
   </a>
 </p>
