@@ -36,32 +36,11 @@ pyinstaller --onefile --noconsole --icon="image.ico" --name "MgTw2.4A Lagacy (by
 ```bash
 make clean
 
-./configure \
-  --enable-cross-compile \
-  --arch=x86_64 \
-  --target-os=mingw32 \
-  --cross-prefix=x86_64-w64-mingw32- \
-  --pkg-config=false \
-  --enable-x86asm \
-  --disable-pthreads \
-  --enable-w32threads \
-  --disable-everything \
-  --disable-doc \
-  --disable-network \
-  --disable-devices \
-  --enable-protocol=file \
-  --enable-filter=aresample,aformat,null \
-  --enable-demuxer=mp4,matroska,flac,ogg,mov \
-  --enable-muxer=mp4,matroska,flac,ogg,ipod,mov \
-  --enable-decoder=aac,vorbis,flac,opus,pcm_s32le,pcm_s24le,pcm_s16le \
-  --enable-encoder=aac \
-  --enable-parser=aac,vorbis,flac,opus,mpegaudio \
-  --enable-bsf=aac_adtstoasc \
-  --enable-small \
-  --enable-static \
-  --disable-shared \
-  --extra-cflags="-D_WIN32_WINNT=0x0600" \
-  --extra-ldflags="-static -static-libgcc"
+git clone https://www.ffmpeg.org/releases/ffmpeg-8.1.2.tar.xz
+
+vim libavformat/version.h > Build
+
+./configure   --enable-cross-compile   --arch=x86_64   --target-os=mingw32   --cross-prefix=x86_64-w64-mingw32-   --pkg-config=false   --enable-x86asm   --disable-pthreads   --enable-w32threads   --disable-doc   --disable-network   --disable-devices   --enable-protocol=file   --enable-filter=aresample,aformat,null   --enable-small   --enable-static   --disable-shared   --extra-cflags="-D_WIN32_WINNT=0x0600 -DEBADMSG=104"   --extra-ldflags="-static -static-libgcc"
 
 make -j$(nproc)
 
